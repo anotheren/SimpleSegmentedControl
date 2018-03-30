@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Apache 2.0" }
   s.author       = { "liudong" => "liudong.edward@gmail.com" }
   s.requires_arc = true
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "9.0"
   s.source       = { :git => "https://github.com/anotheren/SimpleSegmentedControl.git",
                      :tag => s.version }
   s.source_files = "Sources/**/*.swift"
