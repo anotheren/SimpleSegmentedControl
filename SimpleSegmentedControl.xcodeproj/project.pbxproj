@@ -54,8 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				A049AC55206E352C00523F98 /* README.md */,
-				A049AC59206E354900523F98 /* SimpleSegmentedControl.podspec */,
 				A049AC57206E353500523F98 /* LICENSE */,
+				A049AC59206E354900523F98 /* SimpleSegmentedControl.podspec */,
 				A0CDD20E2042793C00DDCDD1 /* Sources */,
 				A0E2A6142042736800FBC55D /* Products */,
 			);

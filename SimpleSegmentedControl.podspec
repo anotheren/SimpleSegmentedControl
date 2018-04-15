@@ -1,15 +1,17 @@
-Pod::Spec.new do |s|
+Pod::Spec.new do |spec|
 
-  s.name         = "SimpleSegmentedControl"
-  s.version      = "1.0.0"
-  s.summary      = "Custom UISegmentedControl replacement for iOS"
-  s.homepage     = "https://github.com/anotheren/SimpleSegmentedControl"
-  s.license      = { :type => "Apache 2.0" }
-  s.author       = { "liudong" => "liudong.edward@gmail.com" }
-  s.requires_arc = true
-  s.ios.deployment_target = "9.0"
-  s.source       = { :git => "https://github.com/anotheren/SimpleSegmentedControl.git",
-                     :tag => s.version }
-  s.source_files = "Sources/**/*.swift"
+spec.name         = 'SimpleSegmentedControl'
+spec.version      = '1.0.1'
+spec.license      = { :type => 'Apache License 2.0' }
+spec.homepage     = 'https://github.com/anotheren/SimpleSegmentedControl'
+spec.author       = { 'liudong' => 'liudong.edward@gmail.com' }
+spec.summary      = 'Custom UISegmentedControl replacement for iOS'
+spec.source       = { :git => 'https://github.com/anotheren/SimpleSegmentedControl.git',
+                      :tag => spec.version }
+spec.swift_version = '4.1'
+
+spec.ios.deployment_target     = '9.0'
+
+spec.source_files = 'Sources/**/*.swift'
 
 end
