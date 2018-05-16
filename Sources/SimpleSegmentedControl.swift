@@ -257,7 +257,7 @@ extension SimpleSegmentedControl {
     private struct Constants {
         
         static let height: CGFloat = 30
-        static let topBottomMargin: CGFloat = 5
+        static let topBottomMargin: CGFloat = 10
         static let leadingTrailingMargin: CGFloat = 10
     }
 }
