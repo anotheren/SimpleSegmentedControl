@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = 'SimpleSegmentedControl'
-spec.version      = '1.0.1'
+spec.version      = '1.0.2'
 spec.license      = { :type => 'Apache License 2.0' }
 spec.homepage     = 'https://github.com/anotheren/SimpleSegmentedControl'
 spec.author       = { 'liudong' => 'liudong.edward@gmail.com' }
